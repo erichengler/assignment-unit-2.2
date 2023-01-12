@@ -142,6 +142,11 @@ if (mix === true) {
 }
 */
 
+//FIX - colorOne is set to 'red', not 'blue'. colorTwo is set to 'blue', not 'red',
+// and only colorOne is set to purple if mix is set to true, not colorTwo.
+
+
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -154,6 +159,10 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+//FIX - OR, not and.
+
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -170,3 +179,5 @@ if(minAge <= age) {
 }
 */
 
+//FIX - We instead are checking if minAge is less than or equal to age (the same thing?).
+// if it is, we are logging 'no entry' to the console, otherwise are we logging 'enter' to the console.
